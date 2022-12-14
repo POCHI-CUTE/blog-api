@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "article": [
+    {
+      "id": "test",
+      "title": "testTitle",
+      "body": "test text",
+      "tag": {
+        "nuxt3": true
+      }
+    },
+    {
+      "id": "test2",
+      "title": "testTitle2",
+      "body": "test2 text",
+      "tag": {
+        "nuxt3": true
+      }
+    }
+  ]
+}
